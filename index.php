@@ -25,14 +25,15 @@ if(class_exists($nombre_controlador)){
 
     if(isset($_GET['action']) && method_exists($controller, $_GET['action'])){
         $action = $_GET['action'];
-        $controlador->$action();
+        $controller->$action();
     } elseif(!isset($_GET['controller']) && !isset($_GET['action'])) {
         $action_default = action_default;
-        $controlador->$action_default();
+        $controller->$action_default();
     } else{
         show_erro();
     }
 } else{
     show_erro();
 }
+
 require_once 'views/layout/footer.php';
