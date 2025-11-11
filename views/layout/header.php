@@ -7,14 +7,12 @@
     <title>Proyecto 3119175</title>
 </head>
 <body>
+    <h1>Proyecto 3119175</h1>
     <div id="container">
         <!-- cabecera -->
         <header id="header">
             <div id="logo">
                 <img src="./assets/img/tiendaLogo.png" alt="">
-            </div>
-            <div class="titulo" id="titulo">
-                <h1>ZAZA SHOP</h1>
             </div>
         </header>
         <!-- menu -->
@@ -40,4 +38,3 @@
         </nav>
         <!-- contenido -->
         <div id="content">
-

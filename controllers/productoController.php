@@ -3,7 +3,7 @@
 class productoController{
     
     public function index(){
-        $producto = new ProductoModels();
+        $producto = new productoModels();
         $productos = $producto->getAll(6);
         include 'views/producto/destacados.php';
     }
